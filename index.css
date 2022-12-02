@@ -1,0 +1,192 @@
+html body {
+    margin: 0;
+    padding: 0;
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/leaves.png);
+}
+
+h1 {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 40pt;
+    color: darkcyan;
+}
+
+h3 {
+    text-align: center;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 15pt;
+    color: rgb(71, 60, 56);
+}
+
+.logo {
+    margin-top: 10rem;
+    margin-right: auto;
+    margin-left: 25%;
+    margin-bottom: 15px;
+    width: 50%;
+}
+
+.text-block {
+    width: 60%;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.icon-blcok {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.ccard {
+    -webkit-box-shadow: 5px 5px 25px 14px rgba(136, 132, 132, 0.77); 
+    box-shadow: 5px 5px 25px 14px rgba(133, 129, 129, 0.77);
+}
+
+.image {
+    width: 32rem;
+    height: 20rem;
+}
+
+.fa {
+    background-color: darkblue;
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-github {
+    background: black;
+    color: white;
+}
+
+.overlay1 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: salmon;
+
+    text-align: center;
+    padding-top: 8rem;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 24pt;
+    font-style: italic;
+    color: beige;
+}
+.overlay2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: salmon;
+
+    text-align: center;
+    padding-top: 8rem;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 24pt;
+    font-style: italic;
+    color: beige;
+}
+.overlay3 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: salmon;
+
+    text-align: center;
+    padding-top: 8rem;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 24pt;
+    font-style: italic;
+    color: beige;
+}
+.overlay4 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: salmon;
+
+    text-align: center;
+    padding-top: 8rem;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 24pt;
+    font-style: italic;
+    color: beige;
+}
+
+.c1 :hover .overlay1 {
+    opacity: 1;
+}
+.c2 :hover .overlay2 {
+    opacity: 1;
+}
+.c3 :hover .overlay3 {
+    opacity: 1;
+}
+.c4 :hover .overlay4 {
+    opacity: 1;
+}
