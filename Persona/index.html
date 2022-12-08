@@ -1,0 +1,152 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Parking Meter Interface</title>
+    <link href="../bootstrap.css" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.min.js"
+        integrity="sha512-OvBgP9A2JBgiRad/mM36mkzXSXaJE9BEIENnVEmeZdITvwT09xnxLtT4twkCa8m/loMbPHsvPl0T8lRGVBwjlQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <meta name="Persona" content="The persona designed for parking meter interface">
+</head>
+
+<body>
+
+    <nav class="navbar sticky-top navbar-expand-xxl" style="background-color: #e3f2fd;">
+        <div class="container-fluid">
+            <a href="../index.html"><img src="../img/home.png" alt="home" width="30" height="24"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav nav">
+                    <a class="nav-link link-primary" href="..\Persona\index.html">Parking-Persona</a>
+                    <a class="nav-link link-dark" href="..\Responsive-Redesign\index.html">Responsive-Redesign</a>
+                    <a class="nav-link link-dark" href="..\Iterative-Design\index.html">Iterative-Design</a>
+                    <a class="nav-link link-dark" href="..\ChatZone\index.html">ChatZone-Development</a>
+                </div>
+            </div>
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link link-success" href="#intro"><b>Introduction</b></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link-success" href="#inter"><b>Interview</b></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link-success" href="#sketch"><b>Sketch</b></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link-success" href="#map"><b>Empathy maps</b></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link-success" href="#story"><b>Storyboard</b></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div>
+        <div class="m-2 p-2">
+            <h1 class="text-center">Parking Meter Interface Persona</h1>
+        </div>
+        <span class="icon">
+            <img src="src/meter.png" width="6%">
+            <img src="src/meter.png" width="6%">
+            <img src="src/meter.png" width="6%">
+            <img src="src/meter.png" width="6%">
+            <img src="src/meter.png" width="6%">
+        </span>
+
+    </div>
+
+    <div class="mt-2 text" id="intro">
+        <h3>Introduction</h3>
+        <p>
+            The parking meter is something I often see on the side of the road but never use. Once I was walking along
+            and a tourist asked me how to use a meter, unfortunately, I haven't used one either. </p>
+        <p>Later I'm curious about how it worked and tried it by myself. I found the user interaction was not very
+            sensitive, and the operation is not sequential so that take me some time. Therefore I started my
+            exploration.
+        </p>
+        <p>This project can help me understand the various user interaction interfaces around me, and think deeply about
+            the functions and meanings behind them. Then I can obtain more user experience through interviews, design
+            sketches, and imagination of user experience, so as to strengthen the connection between me and users and
+            lay an imaginary foundation for the later design.</p>
+    </div>
+    <div class="text" id="inter">
+        <h3>Interview for users</h3>
+        <h5>Questions</h5>
+        <ol>
+            <li>Have you tried looking for free parking nearby?</li>
+            <li>Do you prefer to use cards or coins?</li>
+            <li>When was the last time you used a parking meter?</li>
+            <li>What problems do you face when you first time use the meter?</li>
+        </ol>
+        <h5>Summary</h5>
+        <ul>
+            <li>Users are often trying to find free or cheaper parking first.</li>
+            <li>Users care about price and time and prefer convenient and efficient payment methods.</li>
+            <li>Users need a few seconds to read the instructions if they are using this type of meter for the first time (many different meter types).</li>
+            <li>Users are not very frequent, occasionally using parking meters basically.</li>
+            <li>Buttons work well and simply could be more efficient.</li>
+        </ul>
+        <br>
+        <h3>Observation</h3>
+        <ul>
+            <li>Users are often in a bit of a hurry to do something when they need to use a parking meter.</li>
+            <li>The card has limitations in some machines (minimum spend, only accepting credit cards, etc.)</li>
+            <li>Users may have to bend down and cover the sun to see the screen.</li>
+        </ul>
+    </div>
+
+    <div class="text" id="sketch">
+        <h3>Annotated sketch of interface</h3>
+        <p>Here is my designed interface with the description, that is what I think should be a better interface.
+        </p>
+        <div class="container"><img class="hw w-50" src="src/scrach.jpg"></div>
+    </div>
+
+    <div class="text" id="map">
+        <h3>Empathy maps</h3>
+        <p>Based on the interview, Here is the empathy map designed for the interface. I designed for two guys with
+            different features. So that it may let me consider more situation.</p>
+
+        <h5>John:</h5>
+        <div class="container"><img class="hw w-75" src="src/John.jpg"></div>
+
+        <h5>Sarah:</h5>
+        <div class="container"><img class="hw w-75" src="src/Sarah.jpg"></div>
+    </div>
+
+    <div class="text" id="story">
+        <h3>Storyboard</h3>
+        <p>Based on Sarah, I created this storyboard to demonstrate the experience of user with parking meter
+            interface. And it can help me to imagine the user experience with clearer environment and scene.</p>
+        <div class="container"><img class="hw" src="src/storyboard.jpg" height="1000px"></div>
+    </div>
+
+    <div>
+        <h1 class="text-center">Thank you for reading&#128515;</h1>
+    </div>
+
+
+</body>
+
+</html>
+
+<!--
+    Citation:
+    https://thenounproject.com
+    https://theplot.io/
+    https://miro.com
+    https://googleimage.com
+-->

@@ -1,0 +1,50 @@
+body{
+    background-color: #80D4FF;
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/polonez_car.png);
+    /* credit: Made by Radosław Rzepecki */
+}
+
+
+.text {
+    margin: 5%;
+    padding: 2%;
+    border: 5px solid skyblue;
+    -webkit-box-shadow: 5px 5px 25px 14px rgba(0,0,0,0.77); 
+    box-shadow: 5px 5px 25px 14px rgba(0,0,0,0.77);
+    background-color: antiquewhite;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 16pt;
+}
+
+h1, h2{
+    text-align: center;
+    margin-right: 0px;
+    margin-bottom: 40px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 40pt;
+    color: darkcyan;
+}
+
+h3 {
+    font-size: 30pt;
+}
+
+p{
+    text-indent:20pt;
+}
+
+.hw{
+    width: 100%;
+    border: 3px solid cornflowerblue; 
+}
+
+.icon{
+    display: flex;
+    justify-content: space-around;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

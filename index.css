@@ -1,7 +1,7 @@
 html body {
     margin: 0;
     padding: 0;
-    background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/leaves.png);
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/blue-snow.png);
 }
 
 h1 {
@@ -22,7 +22,7 @@ h3 {
 }
 
 .logo {
-    margin-top: 10rem;
+    margin-top: 5rem;
     margin-right: auto;
     margin-left: 25%;
     margin-bottom: 15px;

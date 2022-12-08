@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="bootstrap.css" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.min.js"
+        integrity="sha512-OvBgP9A2JBgiRad/mM36mkzXSXaJE9BEIENnVEmeZdITvwT09xnxLtT4twkCa8m/loMbPHsvPl0T8lRGVBwjlQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Responsive Redesign</title>
+</head>
+
+<body>
+    <nav class="navbar sticky-top navbar-expand-xxl" style="background-color: #e3f2fd;">
+        <div class="container-fluid">
+            <a href="../index.html"><img src="../img/home.png" alt="home" width="30" height="24"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav nav">
+                    <a class="nav-link link-dark" href="..\Persona\index.html">Parking-Persona</a>
+                    <a class="nav-link link-primary" href="..\Responsive-Redesign\index.html">Responsive-Redesign</a>
+                    <a class="nav-link link-dark" href="..\Iterative-Design\index.html">Iterative-Design</a>
+                    <a class="nav-link link-dark" href="..\ChatZone\index.html">ChatZone-Development</a>
+                </div>
+            </div>
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link link-success" href="#intro"><b>Introduction</b></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link-success" href="#ana"><b>Analysis</b></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link-success" href="#lo"><b>Lo-Fi</b></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link-success" href="#vis"><b>Visual</b></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link-success" href="#hi"><b>Hi-Fi</b></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link-success" href="#con"><b>Conclusion</b></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="m-2 p-2">
+        <h1 class="text-center">Responsive Redesign</h1>
+    </div>
+
+    <div class="mt-2 text" id="intro">
+        <h3>Introduction</h3>
+        <div>
+            <p>
+                In this project, I am going to select a public website, analyze its shortcomings, and then build a
+                website for improvement, especially the issue of responsiveness. Then the responsive website that I
+                build could support screens of all three sizes: PC, tablet, and phone.
+            </p>
+            <p>
+                This work allows me to upgrade and transform the established website, which is more beneficial to
+                exercise my skills. I can change the features according to my thoughts as a user. And through this work,
+                I can have a clearer understanding of the basic structure and function of the website, and better
+                understand the experience and needs of users. </p>
+        </div>
+    </div>
+
+    <div class="text" id="ana">
+        <h3>Analysis</h3>
+        <p>This is a weekly story collection voice channel website. I chose this site because as a first-time user, I
+            felt that the design of the navigation bar was not very friendly and did not support the screen response of
+            the tablet, which made me feel that it needed to be improved.</p>
+        <p>Here is the screenshot of the website, and the link to <a href="https://thedirtpod.com/episodes"
+                target="_blank">Click Here</a>.</p>
+        <div class="d-flex">
+            <img class="original me-5" src="img/original.png" alt="origianl">
+            <div class="ms-2">
+                <div class="m-0">
+
+                    <h3>Usability</h3>
+                    <br>
+                    <ul>
+                        <li>The site has very small navigation bar buttons, which are not user-friendly.</li>
+                        <li>The site has too much white space at the top, but the content sections are too close
+                            together, and the ratio is not suitable for usability.</li>
+                        <li>The site supports web and mobile browsing, but it doesn't support tablet or middle size, and
+                            the navigation bar buttons overlap.</li>
+                        <li>The site's image ratio is too large, with one image taking up about a quarter of the screen,
+                            and the content is too tightly packed for reading.</li>
+                        <li>The "Read More" button is not obvious and provides a picture and subtitle as hyperlinks
+                            which are too close, the conceptual model did not agree with learnablility.</li>
+                    </ul>
+                </div>
+                <br><br>
+                <div>
+                    <h3>Accessibility</h3>
+                    <br>
+                    <ul>
+                        <li>The "Read More" button is too low contrast for users to read.</li>
+                        <li>Also, the time and the text for the button are not obvious with the light grey.</li>
+                        <li>Redundant link: having three hyperlinks pointing to the same place in a single card is
+                            redundant and impractical, causing confusion and confusion to users.</li>
+                        <li>Some buttons do not use the aria tag to provide valid information to the user.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="text" id="lo">
+        <h3>Low-fidelity Wireframing</h3>
+        <p>Here are my lo-fi frame that shows three different screen frameworks. And it also shows the footer if
+            scrolling to the bottom. This prototype could let us know how will it change. Basically, the main part is
+            the navigation and different screen layout and each episode would be seperatly more to make the page clean.
+            Although the tablet only shows one column, when it uses as horizontal, it will display two columns as well.
+        </p>
+        <div class="justify-content-center">
+            <img src="img/web.png" alt="lo-fi-web" class="web">
+            <img src="img/Tablet.png" alt="lo-fi-tablet" class="tablet">
+            <img src="img/Phone.png" alt="lo-fi-phone" class="phone">
+        </div>
+
+    </div>
+
+    <div class="text" id="vis">
+        <h3>Visual Design Style</h3>
+        <p>Here is some style I may need to use for my hi-fi. Because the original website is using yellow, white, and
+            black which are the main color of the logo. Then I am also going to use it and make yellow the main theme.
+            Also, I change the style of the button and use cards to contain the episodes. The color and the hover status
+            of buttons would be more obvious and helpful.</p>
+        <div class="d-flex justify-content-center">
+            <img src="img/style.png" alt="style" class="style">
+        </div>
+
+    </div>
+
+    <div class="text" id="hi">
+        <h3>High-Fidelity Prototyping</h3>
+        <p>Here are my hi-fi prototypes, the annotated indicates the size of font and color used, but for the margin and
+            padding, since it is changing responsively, I didn't mention lots of this. The overall looking will be
+            better and the color is soft and comfortable. By the way, the size of the
+            tablet is iPad pro which is larger than regular so that could put two-column.</p>
+        <div class="justify-content-center">
+            <img src="img/web1.png" alt="hi-fi-web" class="web">
+            <img src="img/Tablet1.png" alt="hi-fi-tablet" class="tablet">
+            <img src="img/Phone1.png" alt="hi-fi-phone" class="phone">
+        </div>
+
+    </div>
+
+    <div class="text" id="con">
+        <h3>Conclusion</h3>
+        <p>Based on the above wireframes and prototypes, I recreated the website page using HTML and CSS. Here is a link
+            to the website:</p>
+        <div class="d-flex justify-content-center"><a class="btn btn-lg btn-info rounded-5"
+                href="redesign/episodes.html" target="_blank">
+                <h5>New Website Page Episodes</h5>
+            </a></div>
+        <div>
+            <p>
+            <h4>Some features for new website page:</h4>
+            </p>
+            <ul>
+                <li>The website properly scaled for mobile, desktop, and tablet screen sizes.</li>
+                <li>It use collapse button for the navigation bar when small screen to make the function clearer.</li>
+                <li>The layout using card to make each episode seperatly could be more readable.</li>
+                <li>It also change some grey color which is low contrast to yellow or orange to make it more pretty and
+                    comfotable.</li>
+                <li>The button responsive for hover is changing the color that follow the them of the website.</li>
+                <li>The website will fixed the navigation bar when the screen become smaller, good for reading.</li>
+                <li>The button for each bar is bigger and more obvious to click rather than using picture or text.</li>
+                <li>Since the footer hyperlink is consistent with the design of the original website, virtual buttons
+                    (image) are used instead.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="p-3">
+        <h1 class="text-center">Thank you for reading&#128515;</h1>
+    </div>
+
+</body>
+
+</html>

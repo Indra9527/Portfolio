@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>ChatZone-Development</title>
+    <link href="../bootstrap.css" rel="stylesheet">
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.min.js"
+        integrity="sha512-OvBgP9A2JBgiRad/mM36mkzXSXaJE9BEIENnVEmeZdITvwT09xnxLtT4twkCa8m/loMbPHsvPl0T8lRGVBwjlQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+
+    <nav class="navbar sticky-top navbar-expand-xxl" style="background-color: #e3f2fd;">
+        <div class="container-fluid">
+            <a href="../index.html"><img src="../img/home.png" alt="home" width="30" height="24"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav nav">
+                    <a class="nav-link link-dark" href="..\Persona\index.html">Parking-Persona</a>
+                    <a class="nav-link link-dark" href="..\Responsive-Redesign\index.html">Responsive-Redesign</a>
+                    <a class="nav-link link-dark" href="..\Iterative-Design\index.html">Iterative-Design</a>
+                    <a class="nav-link link-primary" href="..\ChatZone\index.html">ChatZone-Development</a>
+                </div>
+            </div>
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link link-success" href="#intro"><b>Introduction</b></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link-success" href="#use"><b>Usability</b></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link-success" href="#demo"><b>Demo</b></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link-success" href="#con"><b>Conclusion</b></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="m-2 p-2">
+        <h1 class="text-center">ChatZone Development</h1>
+    </div>
+
+    <div class=" mt-2 text" id="intro">
+        <h3>Introduction</h3>
+        <p>This is an online real-time chat web application, that provides users to log in, add friends, private chat,
+            friends moments, and other functions. It's mostly done using native Html + CSS + JS. My team members and I
+            completed this project, which is divided into the front end and back end. After the deployment of the
+            server, it can achieve complete functions.
+        </p>
+        <p>Although this project mainly implements the back-end functions, the front-end user interface is also
+            essential. In the interactive page, we try our best to think about the needs of users, present more
+            information, and put the key functions in the most important position according to our habits of using chat
+            software.
+        </p>
+    </div>
+
+    <div class="text" style="min-height: 25rem;" id="use">
+        <h3>Usability</h3>
+        <p>
+            This is every HTML page that the user will use, and basically covers the simple interaction features
+            required for a basic chat application. In the process of implementing the front-end interface, we also
+            learned
+            more about the potential needs of users and imagined what functions they prefer. Then we constantly modified
+            the interface according to these to achieve better results.
+        </p>
+        <p>
+            Here is the link to <a href="create.html" target="_blank">login page</a> and <a href="home.html"
+                target="_blank">home page</a> for you.
+        </p>
+
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4"
+                    aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner inner justify-content-center text-center">
+                <div class="carousel-item text-center active">
+                    <img src="img/1.png" class="d-block w-75" alt="1" style="margin-left: 12.5%;">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="cap"><b>Login Page</b></h5>
+                        <p class="cap">User could sign up and sign in here, and if the user try to access without login,
+                            it will automatically jump here.</p>
+                    </div>
+                </div>
+                <div class="carousel-item text-center">
+                    <img src="img/2.png" class="d-block w-75" alt="2" style="margin-left: 12.5%;">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="cap"><b>Home Page</b></h5>
+                        <p class="cap">The left user could search friend and also add new friend here. The middle user
+                            could talk with friend. The right is showing more information.</p>
+                    </div>
+                </div>
+                <div class="carousel-item text-center">
+                    <img src="img/3.png" class="d-block w-75" alt="3" style="margin-left: 12.5%;">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="cap"><b>Account Page</b></h5>
+                        <p class="cap">The user could update personal information here include avatar, birthday. And
+                            also change theme of page.</p>
+                    </div>
+                </div>
+                <div class="carousel-item justify-content-center">
+                    <img src="img/4.png" class="d-block w-75" alt="4" style="margin-left: 12.5%;">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="cap"><b>Moments Page</b></h5>
+                        <p class="cap">The user could browse all the moments send by other users like Twitter. Also like
+                            or get more information.</p>
+                    </div>
+                </div>
+                <div class="carousel-item justify-content-center">
+                    <img src="img/5.png" class="d-block w-75" alt="5" style="margin-left: 12.5%;">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="cap"><b>Help Page</b></h5>
+                        <p class="cap">Providing more helping information to user so that they could familiar with this
+                            application sooner.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+    </div>
+
+    <div class="text" id="demo">
+        <h3>Demo</h3>
+        <p>
+            Here is a video that show up how this website application used step by step.
+        </p>
+        <div class="text-center">
+            <iframe width="60%" height="600" src="https://www.youtube.com/embed/EiwLGNecIcc?autoplay=1&mute=1">
+            </iframe>
+        </div>
+
+    </div>
+
+
+    <div class="text" id="con">
+        <h3>Conclusion</h3>
+        <p>
+            Overall this is a complete development, from the back-end implementation to the front-end's response.
+            However, the front-end page does not use more good-looking and excellent UI elements, which is relatively
+            rough. After the functional realization is complete, users' experience and better service can be further
+            improved according to the needs of users and the experience of the previous works can be referred to.
+        </p>
+        <p>
+            I believe there will be more perfect works in the future, and more emphasis on the user interaction
+            interface to improve user experience. The road to learning does not stop, as always continue to move
+            forward.
+        </p>
+    </div>
+    <di>
+        <h1 class="text-center">Thank you for reading&#128515;</h1>
+        </div>
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+html body {
+    margin: 0;
+    padding: 0;
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/leaves.png);
+}
+
+.text {
+    margin: 5%;
+    padding: 2%;
+    border: 5px solid skyblue;
+    -webkit-box-shadow: 5px 5px 25px 14px rgba(0,0,0,0.77); 
+    box-shadow: 5px 5px 25px 14px rgba(0,0,0,0.77);
+    background-color: antiquewhite;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 16pt;
+}
+
+h1{
+    text-align: center;
+    margin-right: 0px;
+    margin-bottom: 40px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 40pt;
+    color: darkcyan;
+}
+
+p{
+    text-indent:20pt;
+}
+
+h3 {
+    font-size: 30pt;
+}
+
+.original {
+    height: 43rem;
+    width: 40%;
+}
+
+.style {
+    width: 75%;
+}
+
+.tablet {
+    margin: 2rem;
+    width: 45%;
+}
+
+.phone {
+    margin: 2rem;
+    width: 45%;
+}
+
+.web {
+    margin: 2rem;
+    width: 90%;
+}
+
